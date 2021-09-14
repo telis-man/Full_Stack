@@ -1,0 +1,66 @@
+
+		body{
+		width: 100%;
+	font-family: 'Comfortaa', cursive;
+	background-color: red;
+	color: #F4F6FF ;
+}
+
+	.container{
+
+		width: 100%;
+		
+	}
+
+	.item{
+
+		background-color: green;
+		height: 250px;
+		width: 33.33%;
+
+	}
+
+	@media only screen and (min-width: 786px) {
+
+		body{
+					width: 100%;
+	font-family: 'Comfortaa', cursive;
+	background-color: green;
+	color: #F4F6FF ;
+}
+
+	.container{
+				width: 100%;
+		
+	}
+
+	.item{
+		
+		background-color: yellow;
+		height: 350px;
+		width: 50%;
+	}
+
+}
+
+
+	@media only screen and (min-width: 1200px) {
+
+		body{
+					width: 100%;
+	font-family: 'Comfortaa', cursive;
+	background-color: black;
+	color: #F4F6FF ;
+}
+
+	.container{
+				width: 100%;
+		
+	}
+
+	.item{
+		background-color: blue;	
+		height: 450px;
+		width: 100%;
+	}
+}
