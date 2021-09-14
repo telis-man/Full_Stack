@@ -1,0 +1,14 @@
+
+body {
+	font-family: 'Comfortaa', cursive;
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.main-top, .main-bottom{
+
+height: 50vh;
+}

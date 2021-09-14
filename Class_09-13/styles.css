@@ -1,0 +1,67 @@
+
+body {
+	font-family: 'Comfortaa', cursive;
+	color: white;	
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.text1{
+	position: absolute;
+	top: 20%;	
+	right: 70%;
+}
+
+.main-link{
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 50%;
+	right: 45%;
+	font-size: large;
+	border: 1px solid white;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+#first-dot{
+	display: inline-block;
+ 	animation: myanimation 1s infinite;
+ 	font-size: xx-large;
+}
+
+#second-dot{
+	 display: inline-block;
+	 animation: myanimation 1s infinite;
+	 animation-delay: 0.25s;
+	 font-size: xx-large;
+}
+
+#third-dot{
+	 display: inline-block;
+	 animation: myanimation 1s infinite;
+	 animation-delay: 0.5s;
+	 font-size: xx-large;
+}
+
+#main-button{
+	position: absolute;
+	top: 50%;	
+	right: 50%;	
+}
+
+#welcome{
+	margin-left: 100px;
+}
+
+@keyframes myanimation {
+  0%{color:white;}
+  100%{color:black;}
+}
