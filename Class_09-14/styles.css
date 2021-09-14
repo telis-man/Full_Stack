@@ -1,3 +1,60 @@
 body{
 	font-family: 'Comfortaa', cursive;
+/*	background-color: black;
+	background-color: #4F8A8B;*/
+
+}
+
+.container{
+	position: relative;
+	background-color: #4F8A8B;
+	height: 98vh;
+}
+
+img{
+    width:100%;
+    height:100%;
+}
+
+.first_block{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	padding: 30px;
+	border: 4px solid #E84A5F;
+	background-color: #EA907A;
+}
+
+.second_block{
+	display: inline-block;
+	width: 260px;
+	height: 260px;
+	padding: 50px;
+	border: 4px solid #E84A5F;
+	background-color: #FFCB74;
+}
+
+.thrid_block{
+	position: absolute;
+	width: 45%;
+	height: 100px;
+	border: 4px solid #E84A5F;
+	background-color: #F4F6FF;
+}
+
+.fourth_block{
+	width: 200px;
+	height: 250px;
+	border: 5px solid white;
+	background-color: #EA907A;
+
+}
+
+button{
+
+	width: 300px;
+	height: 60px;
+	border: 5px solid white;
+	background-color: #FFCB74;
+
 }
