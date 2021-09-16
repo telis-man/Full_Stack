@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	background-color: black;
+}
+
+.size1{
+	font-size: 1em;
+}
+
+.size2{
+	font-size: 2em;
+}
+
+.size3{
+	font-size: 3em;
+}
+
+button{
+	border-radius: 0.8em;
+	padding: 0.4em;
+	margin: 0.5em;
+	font-family : inherit;
+
+}
