@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+	color: #F5F5F5;
+	background-color: #364F6B;
+}
+
+.container{
+	display: flex;
+	background-color: #FC5185;
+	height: 15vh;
+	justify-content: center;
+	margin-top: 40vh;
+	margin-left: 5vh;
+	margin-right: 5vh;
+}
+
+.container > div{
+	display: flex;
+	background-color: #3FC1C9;
+	margin: 1vh;
+	justify-content: center;
+	flex-grow: 1;
+	align-items: center;
+}
