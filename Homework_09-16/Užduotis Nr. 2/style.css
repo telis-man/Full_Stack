@@ -1,0 +1,78 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: ;
+  min-width: 100%;
+  min-height:100%;
+  z-index: -1;
+}
+
+body {
+	font-family: 'Comfortaa', cursive;
+	color: white;	
+	background-color: black;
+}
+
+.text1{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	bottom: 70%;	
+	right: 75%;
+}
+
+.main-link{
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 45%;
+	right: 45%;
+	font-size: large;
+	padding: 20px;
+	border-radius: 10vh;
+	background-color: black;
+	opacity: 0.6;
+}
+
+
+#first-dot{
+	display: inline-block;
+ 	animation: myanimation 1s infinite;
+ 	font-size: xx-large;
+}
+
+#second-dot{
+	 display: inline-block;
+	 animation: myanimation 1s infinite;
+	 animation-delay: 0.25s;
+	 font-size: xx-large;
+}
+
+#third-dot{
+	 display: inline-block;
+	 animation: myanimation 1s infinite;
+	 animation-delay: 0.5s;
+	 font-size: xx-large;
+}
+
+a{
+  transition: transform 0.8s; 
+  transition-timing-function: ease;
+}
+
+a:hover{
+	opacity: 0.8;
+	transform: scale(1.2);
+}
+
+#welcome{
+	margin-left: 2vw;
+}
+
+@keyframes myanimation {
+  0%{color:white;}
+  100%{color:black;}
+}
+
+/* YOUR CODE HERE ir beje sėkmės*/
