@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+}
+
+.container{
+	display: grid;
+	grid-gap: 80px;
+	background-color: blue;
+}
+
+.container > div{
+	background-color: blue;
+}
+
+
+
+
+@media only screen and (min-width: 786px) {
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+}
+
