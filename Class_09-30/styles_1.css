@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+	background-color: black;
+	color: white;
+}
+
+
+
+@media only screen and (min-width: 786px) {
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+}
+

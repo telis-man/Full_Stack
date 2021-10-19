@@ -1,0 +1,19 @@
+.navbar{
+	background-color: white !important;
+
+}
+
+.btn{
+	background-color: blue;
+	width: 50px;
+}
+
+.form-control{
+	border-radius: 100px;
+}
+
+
+
+.carousel-item{
+	left: 50%;
+}
