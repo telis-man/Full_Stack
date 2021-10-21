@@ -35,6 +35,7 @@ let arrIndexOfFirst = (input_array, argument) => input_array.indexOf(argument);
 
 console.log(arrIndexOfFirst(numbers, 7));
 
+
 // 5. Parašykite funkciją arrIndexOfLast, kuri grąžintu paskutinio surasto, argumentu nurodyto skaičiaus, indeksą masyve. Jei skaičius nerastas funkcija turi grąžinti -1.
 
 console.log(`5 užduotis:\n`)
@@ -53,6 +54,7 @@ console.log(`6 užduotis:\n`)
 let reverseNumbers = (input_array) => input_array.reverse();
 
 console.log(reverseNumbers(numbers));
+
 
 // 7. Parašykite  funkciją, kuri kaip argumentą priims skaičių masyvą ir suras atitinkamai mažiausią ir didžiausią skaičių bei juos grąžins.
 // Pvz.: Turime masyvą: [8,5,4,2,7,1,9]
