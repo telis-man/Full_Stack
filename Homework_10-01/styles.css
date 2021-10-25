@@ -1,18 +1,21 @@
-.navbar{
-	background-color: white !important;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
+body{
+	font-family: 'Comfortaa', cursive;
 }
 
-.btn{
-	background-color: blue;
-	width: 50px;
+.navbar{
+	background-color: white !important;
 }
 
 .form-control{
 	border-radius: 100px;
 }
 
-.carousel-item{
-	left: 50%;
+.free_shipping{
+	left: calc(50% - 100px);
+}
 
+.discount_up{
+	left: calc(50% - 90px);
 }
