@@ -11,8 +11,8 @@
 // Testavimui, sukurkite du filmus, kurie turės nurodytas savybes ir metodus.
 
 
-let movie_1 = new Movie('Fargo', 1989, 'John Cena', 1450000, 5000000);
-let movie_2 = new Movie('Jurassic Park', 1999, 'Bono', 1200000, 6000000);
+let movie_1 = new Movie('Fargo', 1989, 'John Cena', '1450000', '5000000');
+let movie_2 = new Movie('Jurassic Park', 1999, 'Bono', '1200000', '6000000');
 
 
 console.log(movie_2.getIntroduction());

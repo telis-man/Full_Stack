@@ -1,7 +1,6 @@
 class Movie {
 
 	constructor(name, year, director, budget, income){
-
 		this.name = name;
 		this.year = year;
 		this.director = director;
@@ -16,3 +15,21 @@ class Movie {
 		return +this.income-(+this.budget);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
