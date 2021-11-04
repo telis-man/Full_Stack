@@ -8,10 +8,10 @@ class Car {
     
 	getIntroduction(){
 		return {brand: this.brand, model: this.model};
-	};
+	}
 
 	getAge(){
-		new Date().getFullYear()-this.year>10 ? console.log('11 metu arba senesnis') : console.log('10 metu arba naujesnis')
+		return new Date().getFullYear()-this.year>10 ? '11 metu arba senesnis' : '10 metu arba naujesnis'
 	}
 }
 

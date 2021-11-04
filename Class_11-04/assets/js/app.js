@@ -19,3 +19,22 @@ console.log(car3.getAge());
 console.log(car1.getIntroduction());
 console.log(car2.getIntroduction());
 console.log(car3.getIntroduction());
+
+// Naudojant ES6 subklases sukurkite motociklų objektų kūrimo konstruktorių (Motorcycle), 
+// kuris turės visas automobilių objektų kūrimo konstruktorių (Car) savybes ir metodus ir 
+// papildomai šią savybę: 
+
+// wheels (kurio vertė bus number).
+
+// Ir metodą: 
+
+// getWheelsNumber, kuris grąžins “motociklas turi 3 ratus”, jei wheels vertė bus 3 ir
+// “motociklas turi 2 ratus”, jei wheels vertė bus 2 (šio metodo logikai naudokite else 
+// if operatorių).
+
+let motorcycle1 = new Motorcycle('Suzuki', 'GP', 1999, 5);
+
+
+ console.log(`Motociklas turi ${motorcycle1.getWheelsNumber()} ratus`);
+
+
