@@ -34,7 +34,6 @@ console.log(car3.getIntroduction());
 
 let motorcycle1 = new Motorcycle('Suzuki', 'GP', 1999, 5);
 
-
  console.log(`Motociklas turi ${motorcycle1.getWheelsNumber()} ratus`);
 
 
